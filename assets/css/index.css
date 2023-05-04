@@ -1,0 +1,144 @@
+* {
+    font-family: 'Myriad Pro';
+    box-sizing: border-box;
+}
+
+div.container {
+    width: 100%;
+    padding: 30px 100px;
+    background-color: white;
+}
+
+div.row {
+    width: 85%;
+    background-color: #008378;
+    padding: 26px 30px 35px 30px;
+    margin: auto;
+    width: 600px;
+}
+
+p.page_title {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: white;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+div.explain {
+    padding: 36px 27px 27px 27px;
+}
+
+div.explain p:nth-of-type(1) {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #006A5C;
+}
+
+div.explain p:nth-of-type(2) {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4C4D4F;
+}
+
+div.btn_listen {
+    width: 100%;
+}
+
+div.explain h3 {
+    color: #006A5C;
+}
+
+div.child_element {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+}
+
+div.child_element div.logo {
+    align-self: flex-end;
+    padding-left: 19px;
+}
+
+div.child_element div.logo img {
+    display: flex;
+}
+
+button.btn_listen {
+    border: 0;
+    margin: 0;
+    padding: 10px 25px;
+    background: #80BA27;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        margin: 0;
+    }
+
+    div.container {
+        padding: 0;
+    }
+
+    div.row {
+        padding: 24px 10px 10px 10px;
+        margin: 0;
+        width: inherit;
+    }
+
+    p.page_title {
+        width: 220px;
+        margin: auto;
+        text-align: center;
+    }
+
+    div.explain p {
+        margin: 1px 0 13px 0;
+    }
+
+    div.child_element {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    div.action_button {
+        text-align: center;
+    }
+
+    div.explain {
+        order: 1;
+        margin: 0;
+        padding: 36px 20px;
+    }
+
+    div.logo {
+        margin-top: 30px;
+        order: 2;
+        width: 272px;
+        height: 313px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
